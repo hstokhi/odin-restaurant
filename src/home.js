@@ -1,12 +1,6 @@
 import Sanji from './img/sanji.jpg'
 
-
-const check = () => {
-    console.log('Check 1 2 1 2')
-}
-
 const loadHome = () => {
-    const content = document.querySelector('#content')
     
     const name = document.createElement('h1')
     name.textContent = "Sanji's Cafe"
@@ -27,4 +21,4 @@ const loadHome = () => {
     content.appendChild(welcome)
 }
 
-export {loadHome, check}
+export {loadHome}
