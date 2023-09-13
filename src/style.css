@@ -21,6 +21,8 @@ header {
 
 .header div {
     border: solid 1px #2B4676;
+    display: flex;
+    justify-content: center;
 }
 
 #content {
